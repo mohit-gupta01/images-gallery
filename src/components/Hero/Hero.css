@@ -14,7 +14,7 @@
 
 .hero-content h1 {
     position: absolute;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .hero-content h1:nth-child(1) {
@@ -40,7 +40,8 @@
     top: 55%;
     left: 5%;
     width: 45%;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 30px;
     opacity: 0;
     transform: translateY(20px);
     animation: slideUp 0.8s forwards;
