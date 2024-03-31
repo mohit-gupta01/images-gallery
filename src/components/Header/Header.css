@@ -159,6 +159,26 @@ header {
     header {
         padding: 1rem 5rem;
     }
+}
 
+.nav-search {
+    position: relative;
+}
 
+.nav-search .search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-search .search input {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #ccc;
+    font-size: 14px;
+    border-bottom: solid 1px #fff;
+    padding-block: 3px;
+    width: 160px;
 }
