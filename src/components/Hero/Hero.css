@@ -61,3 +61,24 @@
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 40px;
+    }
+
+    .hero-content h1:nth-child(1) {
+        top: 22%;
+    }
+
+    .hero-content h1:nth-child(2) {
+        top: 30%;
+    }
+
+    .hero-content p {
+        top: 40%;
+        width: 80%;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
